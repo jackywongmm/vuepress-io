@@ -1,7 +1,10 @@
 {
-	"scripts": {
-		"docs:dev": "vuepress dev docs",
-		"docs:build": "vuepress build docs",
-		"publish": "deploy.sh"
-	}
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "publish": "deploy.sh"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.8"
+  }
 }

@@ -1,15 +1,13 @@
 ---
 home: true
-heroText: 前端项目文档模板
-tagline: powered by Vuepress
-actionText: 快速上手->
-actionLink: /project/
+heroText: JackyWong's Front-end
+tagline: 开发、学习、笔记
+actionText: GO ->
+actionLink: /JavaScript/
 features:
   - title: 简介
     details: 以markdown为中心的项目结构
   - title: 简介
     details: 以markdown为中心的项目结构
-footer: MIT Lecensed | Copyright
+footer: MIT Licensed | Copyright © 2019-present Jacky Wong
 ---
-## 文档内容
-[]

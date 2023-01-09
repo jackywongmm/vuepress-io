@@ -1,12 +1,15 @@
 module.exports = {
-  title: 'Jacky`s FE',
-  description: 'Just Do It！',
+  title: 'JackyWong\'s FE',
+  description: 'keep moving,toooo!',
   themeConfig: {
     logo: '/gratisography-346H.jpg',
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'Vue', link: '/vue/' },
-      { text: 'React', link: '/react/' },
+      { text: 'Home', link: '/' },
+      { text: 'JavaScript', link: '/JavaScript/' },
+      { text: 'Vue', link: '/Vue/' },
+      { text: 'React', link: '/React/' },
+      { text: 'Note', link: '/Note/' },
+      { text: 'DevTools', link: '/DevTools/' },
       // { text: '工具库', link: '/utils' },
       // {
       //   text: '项目预览',
@@ -19,6 +22,7 @@ module.exports = {
     sidebar: {
       '/vue/': [
         ['vue3_source', 'Vue3.0源码学习'],
+        ['plugin-two', '2222222222'],
       ],
       '/react/': [
         ['project-one', '项目one'],
